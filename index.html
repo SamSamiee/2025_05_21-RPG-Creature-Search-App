@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>RPG Creature Search App</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<h1>RPG Creature Search</h1>
+		<div id="search">
+			<input id="search-input" type="text" required />
+			<button id="search-button">search</button>
+		</div>
+		<div id="main">
+			<div id="title">
+				<h2 id="creature-name"></h2>
+				<h3 id="creature-id"></h3>
+			</div>
+			<div id="dimensions">
+				<p id="weight"></p>
+				<p id="height"></p>
+				<p id="types"></p>
+				<h3 id="special-name"></h3>
+				<p id="special-description"></p>
+			</div>
+			<table>
+				<thead>
+					<tr>
+						<th>Base</th>
+						<th>Stats</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th>Hp</th>
+						<td id="hp"></td>
+					</tr>
+					<tr>
+						<th>Attack</th>
+						<td id="attack"></td>
+					</tr>
+					<tr>
+						<th>Defense</th>
+						<td id="defense"></td>
+					</tr>
+					<tr>
+						<th>Sp. Attack</th>
+						<td id="special-attack"></td>
+					</tr>
+					<tr>
+						<th>Sp. Defense</th>
+						<td id="special-defense"></td>
+					</tr>
+					<tr>
+						<th>Speed</th>
+						<td id="speed"></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
