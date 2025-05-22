@@ -49,6 +49,11 @@ input {
 	font-size: 1.5rem;
 }
 
+input::placeholder{
+  color: rgba(74, 102, 82, 0.581);
+
+}
+
 button {
 	border: none;
 	outline: none;

@@ -25,6 +25,7 @@ btn.addEventListener("click", async () => {
 	} catch {
 		alert("Creature not found");
 	}
+	input.value = "";
 });
 
 async function fetchCreature(crt) {
